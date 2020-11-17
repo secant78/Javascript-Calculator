@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset = "utf-8">
+	<link rel="stylesheet" href = "Javascript_Calculator_css.css">
+	<link href="css/creative.min.css" rel="stylesheet">
+</head>
+<script src = "Javascript_Calculator_JS"></script>
+<div class="text-center" id='page'>
+  <div class='jumbotron'>
+  <h1>Javascript Calculator</h1>
+  </div>
+  <div id = 'calculatorLayout' class ="well well-lg">
+  
+<div id = "buttonOutput">
+  
+  
+  
+  <form>
+  <input type="text" id ="output" class="form-control" value = ""/>
+    
+    </form>
+</div>  
+<form name = "calculator-buttons">
+<div class = "buttons well">
+  
+  <div class = 'col-xs-2'>
+  <input type="button" id="button1" class='btn btn-default row' value="1">
+    <input type="button" id="button4" class='btn btn-default row' value="4">
+     <input type="button" id="button7" class='btn btn-default row' value="7">
+    
+     <input type="button" id="button0" class='btn btn-default row' value="0">
+  
+    
+  </div>
+  <div class='col-xs-2'>
+   <input type="button" id="button2" class='btn btn-default row' value="2">
+   <input type="button" id="button5" class='btn btn-default row' value="5">
+   <input type="button" id="button8" class='btn btn-default row' value="8">
+   
+  </div>
+  <div class='col-xs-2'>
+   <input type="button" id="button3" class='btn btn-default row' value="3">
+   <input type="button" id="button6" class='btn btn-default row' value="6">
+  <input type="button" id="button9" class='btn btn-default row' value="9">
+    <input type="button" id = "buttondecimal" class ='btn row' value = ".">
+  </div>
+  <div class='col-xs-2'>
+     <input type="button" id="buttondivide" class ='btn row' value="/">
+   <input type="button" id="buttonmultiply" class ='btn row' value="*">
+   <input type="button" id="buttonminus" class ='btn row' value="-">
+  <input type="button" id="buttonplus" class ='btn row' value="+">
+  </div>
+   <div class='col-xs-2'>
+    <input type="button" id = "reset" class ='btn row' value = "AC">
+     <input type='button' id = "submit"class='btn row' value='='>
+  </div>
+  
+ 
+  </div>
+</form>
+  </div>
+</div>
+</html>
